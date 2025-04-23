@@ -9,7 +9,10 @@ const Hello = ()=> {
       //    </h1>
    //   </div>
    //  
-   return React.createElement('div',null, React.createElement('h1',null,'without using jsx') )
+   return React.createElement('div',
+
+    {id:'hello' , className:'dummy class' },
+     React.createElement('h1',null,'without using jsx') )
 
  }
 export default Hello
