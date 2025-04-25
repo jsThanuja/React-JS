@@ -10,13 +10,15 @@ import FuctionClick from './components/FuctionClick.js';
 import ClassClick from './components/ClassClick.js';
 import EventBind from './components/EventBind.js';
 import EventStateBind from './components/EventStateBind.js';
+import FuctionHook from './components/FuncionHook.js';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-     <EventStateBind/>
-       {/*  <EventBind/>
+        <FuctionHook/>
+    {/* <EventStateBind/>
+         <EventBind/>
        <FuctionClick/>
        <ClassClick />
       
