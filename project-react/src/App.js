@@ -9,13 +9,15 @@ import Counter from './components/Counter.js';
 import FuctionClick from './components/FuctionClick.js';
 import ClassClick from './components/ClassClick.js';
 import EventBind from './components/EventBind.js';
+import EventStateBind from './components/EventStateBind.js';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-         <EventBind/>
-      {/* <FuctionClick/>
+     <EventStateBind/>
+       {/*  <EventBind/>
+       <FuctionClick/>
        <ClassClick />
       
          <Counter/>

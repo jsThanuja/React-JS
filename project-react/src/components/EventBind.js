@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Message from './Message'
- class EventBind extends Component {
+ class EventBind extends Component 
+  {
  constructor(props) {
    super(props)
  
@@ -23,5 +24,7 @@ clickHandler(){
     )
   }
 }
+  
 
-export default EventBind
+  
+  export default EventBind
