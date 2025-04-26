@@ -11,14 +11,15 @@ import ClassClick from './components/ClassClick.js';
 import EventBind from './components/EventBind.js';
 import EventStateBind from './components/EventStateBind.js';
 import FuctionHook from './components/FuncionHook.js';
-import CounterApp from './components/CounterApp.js';
+import Tudo from './components/Tudo.js';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <CounterApp/>
-       {/*  <FuctionHook/>
+  <Tudo/>
+         {/* <CounterApp/>
+       <FuctionHook/>
     <EventStateBind/>
          <EventBind/>
        <FuctionClick/>
