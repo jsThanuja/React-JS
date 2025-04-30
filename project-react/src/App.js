@@ -11,13 +11,19 @@ import ClassClick from './components/ClassClick.js';
 import EventBind from './components/EventBind.js';
 import EventStateBind from './components/EventStateBind.js';
 import FuctionHook from './components/FuncionHook.js';
-import Tudo from './components/Tudo.js';
+//import Tudo from './components/Tudo.js';
+import Calculator from './components/Calculator.js';
+import Keypad from './components/Keypad.js';
+import StyleAPP from './components/StyleAPP.js';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-  <Tudo/>
+        <StyleAPP/>
+    {/*<Calculator/>
+   <Keypad/>
+         {/*<Tudo/>
          {/* <CounterApp/>
        <FuctionHook/>
     <EventStateBind/>
