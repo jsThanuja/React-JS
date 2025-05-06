@@ -5,7 +5,7 @@ import './StyleAPP.css'
 function StyleAPP() {
   return (
     <div className='Wrapper'>
-        <h1> <b> <u> <i> Background Color Changer </i></u> </b></h1>
+        <h1> <b> <u>  Background Color Changer </u> </b></h1>
         <input type='color' 
             onChange={
               (e) => {
